@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { UserFormTestComponent } from './user-form-test.component';
+import { FormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
 
 
 
@@ -8,9 +10,13 @@ import { UserFormTestComponent } from './user-form-test.component';
     UserFormTestComponent
   ],
   imports: [
+    BrowserModule,
+    FormsModule
   ],
   exports: [
-    UserFormTestComponent
+    UserFormTestComponent,
+    BrowserModule,
+    FormsModule
   ]
 })
 export class UserFormTestModule { }

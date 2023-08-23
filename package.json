@@ -20,6 +20,7 @@
     "@angular/router": "^15.2.9",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
+    "user-form-test": "^0.0.5",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
