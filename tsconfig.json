@@ -15,6 +15,9 @@
       "my-lib": [
         "dist/my-lib"
       ],
+      "user-form-test": [
+        "dist/user-form-test"
+      ],
       "user-lib": [
         "dist/user-lib"
       ]
